@@ -145,24 +145,11 @@
       
         
         
-        <li class="menu-item menu-item-home">
+        <li class="menu-item menu-item-首页">
       
     
 
-    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>Home</a>
-
-  </li>
-      
-    
-      
-      
-        
-        
-        <li class="menu-item menu-item-about">
-      
-    
-
-    <a href="/about/" rel="section"><i class="fa fa-fw fa-user"></i>About</a>
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>首页</a>
 
   </li>
       
@@ -171,11 +158,11 @@
       
         
         
-        <li class="menu-item menu-item-tags">
+        <li class="menu-item menu-item-标签">
       
     
 
-    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>Tags</a>
+    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>标签</a>
 
   </li>
       
@@ -184,11 +171,24 @@
       
         
         
-        <li class="menu-item menu-item-archives">
+        <li class="menu-item menu-item-分类">
       
     
 
-    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>Archives</a>
+    <a href="/categories/" rel="section"><i class="fa fa-fw fa-th"></i>分类</a>
+
+  </li>
+      
+    
+      
+      
+        
+        
+        <li class="menu-item menu-item-归档">
+      
+    
+
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>归档</a>
 
   </li>
       
@@ -219,7 +219,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/13/hello-world/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/05/13/你曾是少年/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Zhengping Qu">
@@ -234,7 +234,7 @@
         <h1 class="post-title" itemprop="name headline">
           
             
-            <a href="/2019/10/13/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
+            <a href="/2019/05/13/你曾是少年/" class="post-title-link" itemprop="url">开篇记-你曾是少年</a>
           
         </h1>
 
@@ -249,7 +249,36 @@
                 
               
 
-              <time title="Created: 2019-10-13 17:39:27" itemprop="dateCreated datePublished" datetime="2019-10-13T17:39:27+08:00">2019-10-13</time>
+              <time title="Created: 2019-05-13 19:45:49" itemprop="dateCreated datePublished" datetime="2019-05-13T19:45:49+08:00">2019-05-13</time>
+            </span>
+          
+            
+
+            
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2019-10-13 20:54:28" itemprop="dateModified" datetime="2019-10-13T20:54:28+08:00">2019-10-13</time>
+              </span>
+            
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/生活/" itemprop="url" rel="index">
+                    <span itemprop="name">生活</span>
+                  </a>
+                </span>
+
+                
+                
+              
             </span>
           
 
@@ -264,19 +293,9 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+          <p>__早上起来，带着朦朦胧胧的困意，打开朋友圈，看看昨天大家有什么好玩的分享。突然，蹦出我总监两张照片，一张是高中那种还带着稚气未脱，一张是现在的照片。说实话，差别很大，不客气的说，堪比整容。离开了校园的生活，工作是改变人最快的速度，从性格，体型到各个方面。从我自己认识到，进入社会后，对于事情，对于人，都有了一层全新认识。现在看待问题和事情，不单单是表面看起来那么简单，更多的是看待这些里面的更深的问题。</p>
+<p>说到少年，就不得不提到爱情这个话题。离开校园，步入社会，校园爱情是否可以经受住社会以及现实问题的考验。其实好多人，对于校园爱情，都是持一种否定态度。由于两个人都没有社会经验，对待问题如果缺少耐心或者没有那种解决问题的态度，这样曾经那么美好的爱情就会受到现实的考验。至于结果，就是两个人能不能解决这些现实问题</p>
+<p>曾经少年，告别校园，告别老师和同学，进入竞争残酷的职场，自己又多了一个叫做同事的角色。每天早出晚归，早上不再有老师的点名，但是迟到会被扣钱。早上不再有那么温馨的食堂做的早饭，只能自己匆匆忙忙的对付一下。我们不再有作业，但是任务没有完成就不会下班。</p>
 
         
       
@@ -338,10 +357,36 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         
-          <a href="/archives/">
+          <a href="/archives">
         
           <span class="site-state-item-count">1</span>
           <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+    
+      
+      
+      <div class="site-state-item site-state-categories">
+        
+          
+            <a href="/categories/">
+          
+        
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">categories</span>
+        </a>
+      </div>
+    
+      
+      
+      <div class="site-state-item site-state-tags">
+        
+          
+            <a href="/tags/">
+          
+        
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">tags</span>
         </a>
       </div>
     
